@@ -1,5 +1,5 @@
 <template>
-      <h1>La mia prima app con Vue CLI!</h1>
+      <h1 id="title">La mia prima app con Vue CLI!</h1>
 </template>
 
 <script>
@@ -9,12 +9,11 @@ export default {
 </script>
 
 <style scoped>
-    h1 {
-        padding-top: 50px;
+    #title {
+        padding-top: 20px;
         text-align: center;
         text-shadow: 5px 5px 0px #000000;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 70px;
+        font-size: 50px;
         font-weight: 800;
         color: #AAD945;
     }
