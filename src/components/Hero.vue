@@ -24,9 +24,11 @@ export default {
     #jumbotron {
         width: 100%;
         height: 100vh;
+        background-color: #02428A;
         background-image: url('https://ahrefs.com/blog/it/wp-content/uploads/2020/07/fb-javascript-seo_it.png');
         background-position: center;
         background-size: contain;
+        background-repeat: no-repeat;
     }
 
     #jumbotron .wrapper {

@@ -12,7 +12,7 @@ export default {
     #title {
         padding-top: 20px;
         text-align: center;
-        text-shadow: 5px 5px 0px #000000;
+        text-shadow: 3px 3px 0px #000000;
         font-size: 50px;
         font-weight: 800;
         color: #AAD945;
@@ -20,6 +20,7 @@ export default {
 
     @media screen and (max-width: 768px) {
         #title {
+            padding: 100px 10px 0px 10px;
             font-size: 40px;
         }
     }
