@@ -26,7 +26,7 @@ export default {
         height: 100vh;
         background-image: url('https://ahrefs.com/blog/it/wp-content/uploads/2020/07/fb-javascript-seo_it.png');
         background-position: center;
-        background-size: cover;
+        background-size: contain;
     }
 
     #jumbotron .wrapper {
@@ -38,5 +38,18 @@ export default {
     #jumbotron img {
         height: 60px;
         margin: 20px 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        #jumbotron .wrapper {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        #jumbotron img {
+            height: 30px;
+            margin: 10px 20px;
+        }
     }
 </style>
